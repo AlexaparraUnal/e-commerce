@@ -11,13 +11,6 @@ Este es un proyecto de una aplicación de comercio electrónico desarrollada con
 
 ---
 
-## 🎥 Demo
-
-<!-- Aquí puedes poner una imagen, GIF o link a un video -->
-<!-- ![demo](./demo.gif) -->
-<!-- [Ver demo en vivo](https://tudemo.vercel.app) -->
-
----
 
 ## 📌 Características
 
