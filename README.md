@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+E-Commerce App
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![React Query](https://img.shields.io/badge/React%20Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)](https://tanstack.com/query)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/)
 
+Este es un proyecto de una aplicación de comercio electrónico desarrollada con Next.js, React Query y Tailwind CSS. La aplicación permite a los usuarios explorar productos, ver detalles, añadir al carrito y visualizar productos relacionados.
+
+---
+
+## 🎥 Demo
+
+<!-- Aquí puedes poner una imagen, GIF o link a un video -->
+<!-- ![demo](./demo.gif) -->
+<!-- [Ver demo en vivo](https://tudemo.vercel.app) -->
+
+---
+
+## 📌 Características
+
+### 1. Página de productos
+- Lista de productos paginados  
+- Filtro por categorías  
+- Enlaces a detalles  
+
+### 2. Página de detalles del producto
+- Información detallada del producto  
+- Productos relacionados (excluyendo el actual)  
+- Añadir al carrito  
+
+### 3. Carrito de compras
+- Persistencia en `localStorage`  
+- Subtotal, impuestos y total  
+- Eliminar productos  
+
+### 4. Optimización de imágenes
+- `next/image` para optimizar  
+- Configuración para imágenes externas  
+
+### 5. Rutas dinámicas
+- Rutas dinámicas con `useParams` de Next.js  
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **Next.js** – Framework para React con SSR  
+- **React Query** – Manejo de datos asíncronos  
+- **Tailwind CSS** – Estilos rápidos y reutilizables  
+- **TypeScript** – Tipado estático para seguridad  
+- **Fake Store API** – Fuente de datos  
+
+---
+
+## ⚙️ Requisitos previos
+
+- Node.js  
+- npm o yarn  
+
+---
+
+## 🚀 Instalación
+
+1. Clona el repositorio  
 ```bash
+git clone <URL_DEL_REPOSITORIO>
+cd e-commerce
+Instala dependencias
+
+bash
+Copiar
+Editar
+npm install
+Ejecuta el servidor local
+
+bash
+Copiar
+Editar
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🧠 Decisiones técnicas
+React Query
+Eficiencia en el manejo de datos, caché y sincronización.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Carrito persistente
+Uso de localStorage para mantener el estado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Tailwind CSS
+Estilos rápidos, sin escribir CSS tradicional.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Next.js
+SSR + rutas dinámicas para rendimiento y SEO.
 
-## Learn More
+Manejo de errores
+Mensajes de error y carga para mejor UX.
 
-To learn more about Next.js, take a look at the following resources:
+🧩 Desafíos enfrentados
+Tailwind CSS: Solucionado leyendo la documentación oficial.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Despliegue: Después de probar alternativas, usé Vercel por su integración con Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🛤️ Próximos pasos
+✅ Mejorar accesibilidad
 
-## Deploy on Vercel
+✅ Agregar autenticación
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+✅ Conectar un backend real
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👩‍💻 Autor
+Alexa Parra
+📧 paalexandra.1994@gmail.com
